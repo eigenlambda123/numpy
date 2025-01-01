@@ -74,3 +74,6 @@ print(output)
 #  [1. 0. 0. 0. 1.]
 #  [1. 1. 1. 1. 1.]]
 
+
+# For Lot More
+# https://docs.scipy.org/doc/numpy-1.13.0/user/basics.indexing.html

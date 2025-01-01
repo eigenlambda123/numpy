@@ -27,3 +27,6 @@ print(b.itemsize)
 # Get Total Size
 print(a.nbytes)
 print(b.nbytes)
+
+# For Lot More Info
+# https://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/

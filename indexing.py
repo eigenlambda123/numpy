@@ -49,3 +49,6 @@ print(b[1,1,1])
 # Replace
 b[:, 1, :] = [[9,9], [8,8]] 
 print(b)
+
+# For Lot More
+# https://docs.scipy.org/doc/numpy-1.13.0/user/basics.indexing.html
