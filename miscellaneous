@@ -4,3 +4,13 @@ filedata = np.genfromtxt('data.txt', delimiter=',')
 filedata = filedata.astype('int32')
 print(filedata)
 
+# Index Masking and Advanced Indexing
+print(filedata > 50) # will set data greater than 50 true otherwise False
+print(filedata[filedata > 50]) # will index all data that is grater than 50
+np.any(filedata > 50, axis=0) # will set data greater than 50 true otherwise False in specific col
+np.any(filedata > 50, axis=1) # will set data greater than 50 true otherwise False in specific row
+
+# Index list
+a = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9])
+print(a[[1,2,8]])
+
